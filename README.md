@@ -22,6 +22,10 @@ Para executar esta aplicação, você precisará dos seguintes softwares instala
 - **Versão:** 5.2.1
 - **Descrição:** phpMyAdmin é uma ferramenta para gerenciar o MySQL através de uma interface web. Instale a versão 5.2.1 ou superior a partir do [site oficial do phpMyAdmin](https://www.phpmyadmin.net/).
 
+## 6. Pacotes para Instalar
+- *Descrição:Insira no terminal os seguintes comandos * 1-composer require williamcosta/database-manager
+ 2-composer require william-costa/dot-env
+
 ---
 
 ## Configuração do Banco de Dados
@@ -48,7 +52,14 @@ Algumas rotas não foram configuradas de forma dinâmica, portanto, especificare
 Para acessar o painel de administração de depoimentos, use a seguinte URL:
 - **URL:** `http://localhost:8000/mvc/admin/login`
 
-#### Credenciais para Acesso:
+#### Credenciais utilizadas para acessar:
+1 Criar bancos de dados
+2 Criar as tabelas
+2.1 usuarios
+2.2 depoimentos
+3 Para acessar a rota de admin para o painel de 
+admnistração cadastrar alguns dados na tabela de 
+usuarios.
 - **Email:** aguinaldo@gmail.com
 - **Senha:** 123
 
